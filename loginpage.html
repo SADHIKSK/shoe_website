@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Login Page</title>
+      
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/694b8a5554.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <!-- vd start -->
+        <div class="hero">
+            <video autoplay muted plays-inline class="back-video">
+                <source src="images/leaf.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- vd ending -->
+        <!-- login start -->
+        <div class="login-page">
+            <div class="form">
+                <form class="login-form " action="mainpage.html" target="_blank">
+                    <h2>SIGN IN TO LaCeUPPP</h2>
+                    <input type="text" required placeholder="Email" id="email" autocomplete="off" />
+                    
+                    <input oninput="return formvalid()" type="password" required placeholder="Password" id="pass"
+                        autocomplete="off" />
+                        
+                    
+                    <span id="vaild-pass"></span>
+                    <button type="submit">SIGN IN</button>
+                    <p class="message"><a href="#">Forgot your password?</a></p>
+                </form>
+            </div>
+        </div>
+        <!-- login end -->
+        <script src="index.js"></script>
+
+        
+
+
+
+        
+    </body>
+</html>
